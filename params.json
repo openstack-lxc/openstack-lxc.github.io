@@ -1,0 +1,6 @@
+{
+  "name": "OpenStack Mitaka LXC",
+  "tagline": "Installation and setting of OpenStack Mitaka with LXC hypervisor",
+  "body": "### OpenStack Mitaka - LXC",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
