@@ -1,0 +1,8 @@
+- nombre: NavBar
+  items:
+    - nombre: Inicio
+      url: /
+    - nombre: Proyecto
+      url: /proyecto
+    - nombre: Documentación
+      url: /docu
