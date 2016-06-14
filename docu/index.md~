@@ -1,0 +1,14 @@
+---
+layout: blog
+title: OpenStack-LXC
+navbar:
+  - Documentación
+menu:
+  - Lateral
+---
+<section>
+  <h2>Entorno</h2>
+  <img src="images/os02.png"/>
+  <p>
+    
+  </p>
