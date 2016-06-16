@@ -3,4 +3,4 @@
     - name: Entorno
       url: /docu
     - name: LXC
-      url: /docu/lxc01.md
+      url: /docu/lxc01
