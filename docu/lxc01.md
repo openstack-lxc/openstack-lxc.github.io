@@ -72,4 +72,13 @@ menu:
 	      network 10.0.3.0
 	      broadcast 10.0.3.25
     </pre>
+    Configuramos LXC para que inicie los contenedores automáticamente tras el arranque del sistema.
+    <pre>
+      root@CONTROLLER:~# emacs /var/lib/lxc/container/config
+      lxc.start.auto = 1
+      lxc.start.delay = 5
+    </pre>
+    <blockquote>
+      lxc.start.delay: Tiempo de espera en segundos que transcurre desde que se ha terminado de iniciar un contenedor hasta que se inicia el siguiente.
+    </blockquote>
   </p>
