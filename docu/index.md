@@ -26,7 +26,7 @@ menu:
       nova-controller RUNNING 1         -      10.0.200.16, 10.0.3.16 -   
     </pre>
     <blockquote>
-      Los servicios neutron
+      Los servicios neutron y cinder se instalarán directamente en el Sistema Operativo del Host, ya que como indica [Openstack](http://docs.openstack.org/developer/devstack/guides/lxc.html#unable-to-attach-volume-to-instance) existen ciertas limitaciones para aislar estos servicios en un LXC.
     </blockquote>
     <b>Nodo de Computo:</b><br/>
     <pre>
