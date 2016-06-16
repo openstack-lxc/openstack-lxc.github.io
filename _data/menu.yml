@@ -4,3 +4,5 @@
       url: /docu
     - name: LXC
       url: /docu/lxc01
+    - name: OS-Preconfiguración
+      url: /docu/osbase
