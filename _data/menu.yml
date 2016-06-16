@@ -6,3 +6,5 @@
       url: /docu/lxc01
     - name: OS-Preconfiguración
       url: /docu/osbase
+    - name: Nova Controller
+      url: /docu/novacontrol
