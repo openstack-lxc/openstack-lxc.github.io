@@ -8,7 +8,7 @@ menu:
 ---
 <section>
   <p>
-    En todos espacios de usuario donde vayan a instalarse paquetes de OpenStack, añadimos el repositorio de OpenStack y actualizamos los paquetes.
+    En todos los espacios de usuario donde vayan a instalarse paquetes de OpenStack, añadimos el repositorio de OpenStack y actualizamos los paquetes.
     <pre>
       root@OSNODE:~# apt update && apt install software-properties-common
       root@OSNODE:~# add-apt-repository cloud-archive:mitaka
