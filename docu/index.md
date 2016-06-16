@@ -20,18 +20,22 @@ menu:
     <pre>
       root@CONTROLLER:~# lxc-ls -f
       NAME            STATE   AUTOSTART GROUPS IPV4                   IPV6
-      cinder          RUNNING 1         -      10.0.200.11, 10.0.3.11 -
       glance          RUNNING 1         -      10.0.200.12, 10.0.3.12 -
       horizon         RUNNING 1         -      10.0.200.13, 10.0.3.13 -
       keystone        RUNNING 1         -      10.0.200.14, 10.0.3.14 -
-      neutron         RUNNING 1         -      10.0.200.15, 10.0.3.15 -
       nova-controller RUNNING 1         -      10.0.200.16, 10.0.3.16 -   
     </pre>
-    <br/>
+    <blockquote>
+      Los servicios neutron
+    </blockquote>
     <b>Nodo de Computo:</b><br/>
     <pre>
       root@COMPUTE:~# lxc-ls -f
       NAME          STATE   AUTOSTART GROUPS IPV4                                  IPV6
       nova_computer RUNNING 1         -      10.0.200.18, 10.0.3.18, 192.168.122.1 -   
     </pre>
+    <p>
+      <b>Sistema Operativo:</b> Ubuntu 14.04 Trusty<br/>
+      <b>OpenStack:</b> Mitaka<br/>
+    </p>
   </p>
