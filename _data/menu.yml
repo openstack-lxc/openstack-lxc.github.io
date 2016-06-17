@@ -8,3 +8,5 @@
       url: /docu/osbase
     - name: Nova Controller
       url: /docu/novacontrol
+    - name: Keystone
+      url: /docu/keystone
