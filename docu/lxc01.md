@@ -81,4 +81,6 @@ menu:
     <blockquote>
       lxc.start.delay: Tiempo de espera en segundos que transcurre desde que se ha terminado de iniciar un contenedor hasta que se inicia el siguiente.
     </blockquote>
+
+    <a href="https://help.ubuntu.com/lts/serverguide/lxc.html#lxc-basic-usage">Guía de uso de LXC.</a>
   </p>
