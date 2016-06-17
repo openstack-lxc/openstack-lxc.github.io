@@ -20,3 +20,5 @@
       url: /docu/neutroncontrol
     - name: Neutron - Computo
       url: /docu/neutroncompu
+    - name: Horizon
+      url: /docu/horizon
