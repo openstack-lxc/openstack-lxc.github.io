@@ -13,7 +13,7 @@ menu:
       root@nova-computer:~# apt install nova-compute
     </pre>
 
-    Editamos el fichero de configuración */etc/nova/nova.conf* y añadimos las siguientes líneas.
+    Editamos el fichero de configuración <b>/etc/nova/nova.conf</b> y añadimos las siguientes líneas.
     <pre>
       root@nova-computer:~# emacs /etc/nova/nova.conf
       [DEFAULT]
