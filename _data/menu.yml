@@ -10,3 +10,5 @@
       url: /docu/novacontrol
     - name: Keystone
       url: /docu/keystone
+    - name: Glance
+      url: /docu/glance
