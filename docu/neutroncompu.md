@@ -84,3 +84,6 @@ menu:
       root@nova-computer:~# service neutron-linuxbridge-agent restart
     </pre>
   </p>
+  <p>
+    Para crear las redes virtuales podemos seguir la <a href="http://docs.openstack.org/mitaka/install-guide-ubuntu/launch-instance-networks-provider.html">guía de OpenStack</a>.
+  </p>
