@@ -209,6 +209,7 @@ menu:
       export OS_IMAGE_API_VERSION=2
     </pre>
     <pre>
+      root@CLIENT:~$ emacs diego-openrc
       #!/bin/bash
       export OS_PROJECT_DOMAIN_NAME=default
       export OS_USER_DOMAIN_NAME=default
