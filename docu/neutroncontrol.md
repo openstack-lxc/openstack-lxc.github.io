@@ -159,7 +159,7 @@ menu:
       root@nova-controller:~# emacs /etc/nova/nova.conf
       ...
       [neutron]
-      url = http://NEUTRON_INTERNAL_IP:9696
+      url = http://HOST_CONTROLLER_INTERNAL_IP:9696
       auth_url = http://KEYSTONE_INTERNAL_IP:35357
       auth_type = password
       project_domain_name = default
