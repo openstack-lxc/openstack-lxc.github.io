@@ -16,3 +16,7 @@
       url: /docu/novacompu01
     - name: Nova Computer - Computo
       url: /docu/novacompu02
+    - name: Neutron - Controlador
+      url: /docu/neutroncontrol
+    - name: Neutron - Computo
+      url: /docu/neutroncompu
