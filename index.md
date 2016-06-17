@@ -9,6 +9,7 @@ menu:
 <section>
   <h2>¿Por qué OpenStack sobre LXC?</h2>
   <img src="images/os01.png"/>
+  <br/>
   <p>
     1. LXC nos ofrece la oportunidad de aislar los distintos servicios de OpenStack en diferentes espacios de nombre.<br/>
     2. Mejor rendimiento frente a sistemas de virtualización completa.<br/>
