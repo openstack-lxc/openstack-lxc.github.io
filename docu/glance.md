@@ -27,19 +27,19 @@ menu:
       root@client:~$ openstack role add --project service --user glance admin
     </pre>
     
-    Creamos la entidad de servicio para *glance*.
+    Creamos la entidad de servicio para <b>glance</b>.
     <pre>
       root@client:~$ openstack service create --name glance --description "OpenStack Image" image
     </pre>
 
-    Creamos los endpoints para la API de *glance*.
+    Creamos los endpoints para la API de <b>glance</b>.
     <pre>
       root@client:~$ openstack endpoint create --region RegionOne image public http://GLANCE_IP:9292
       root@client:~$ openstack endpoint create --region RegionOne image internal http://GLANCE_IP:9292
       root@client:~$ openstack endpoint create --region RegionOne image admin http://GLANCE_IP:9292
     </pre>
 
-    Accedemos al contenedor de <b>"glance"</b> e instalamos los paquetes necesarios.
+    Accedemos al contenedor de <b>glance</b> e instalamos los paquetes necesarios.
     <pre>
       root@glance:~# apt install glance python-memcache
     </pre>
