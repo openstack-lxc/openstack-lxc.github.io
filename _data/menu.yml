@@ -12,3 +12,7 @@
       url: /docu/keystone
     - name: Glance
       url: /docu/glance
+    - name: Nova Computer - Controlador
+      url: /docu/novacompu01
+    - name: Nova Computer - Computo
+      url: /docu/novacompu02
