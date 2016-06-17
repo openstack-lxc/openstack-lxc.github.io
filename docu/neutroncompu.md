@@ -36,7 +36,7 @@ menu:
       user_domain_name = default
       project_name = service
       username = neutron
-      password = NEUTRON_DBPASS
+      password = NEUTRON_PASS
       
       [oslo_messaging_rabbit]
       rabbit_host = NOVA_CONTROLLER_INTERNAL_IP
@@ -75,7 +75,7 @@ menu:
       region_name = RegionOne
       project_name = service
       username = neutron
-      password = NEUTRON_DBPASS
+      password = NEUTRON_PASS
     </pre>
 
     Reiniciamos los servicios.

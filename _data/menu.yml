@@ -22,3 +22,7 @@
       url: /docu/neutroncompu
     - name: Horizon
       url: /docu/horizon
+    - name: Cinder - Controlador
+      url: /docu/cindercontrol
+    - name: Cinder - Host
+      url: /docu/cinderhost

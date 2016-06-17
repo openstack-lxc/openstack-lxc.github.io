@@ -10,7 +10,7 @@ menu:
   <p>
     Instalamos horizon Mitaka en su respectivo contenedor.
     <pre>
-      root@horizon:~# apt install openstack-dashboard
+      root@horizon:~# apt install openstack-dashboard python-memcache
     </pre>
 
     Editamos el fichero <b>/etc/openstack-dashboard/local_settings.py</b> y añadimos los siguientes cambios.

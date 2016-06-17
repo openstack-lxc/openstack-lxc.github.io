@@ -75,7 +75,7 @@ menu:
       region_name=RegionOne
       project_name=service
       username=nova
-      password=NOVA_DBPASS
+      password=NOVA_PASS
 
       [nova]
       auth_url=http://KEYSTONE_INTERNAL_IP:35357
@@ -84,7 +84,7 @@ menu:
       user_domain_name=default
       project_name=service
       username=nova
-      password=NOVA_DBPASS
+      password=NOVA_PASS
 
       [oslo_messaging_rabbit]
       rabbit_host=NOVA_CONTROLLER_INTERNAL_IP
@@ -167,7 +167,7 @@ menu:
       region_name = RegionOne
       project_name = service
       username = neutron
-      password = NEUTRON_DBPASS
+      password = NEUTRON_PASS
       service_metadata_proxy = True
       metadata_proxy_shared_secret = METADATA_SECRET
     </pre>
